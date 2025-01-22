@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* edit_shop.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section.shop {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+section.shop form div {
+    margin-bottom: 1rem;
+}
+
+section.shop form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+section.shop form input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+section.shop form button {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+section.shop form button:hover {
+    background-color: #555;
+}

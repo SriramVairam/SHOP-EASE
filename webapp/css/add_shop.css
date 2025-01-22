@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.logo {
+	text-align: center;
+}
+
+.shop {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.shop div {
+    margin-bottom: 15px;
+}
+
+.shop label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.shop input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.shop button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shop button:hover {
+    background-color: #575757;
+}

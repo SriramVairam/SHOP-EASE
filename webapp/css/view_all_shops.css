@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* view_all_shops.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section.shops {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+section.shops table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section.shops table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+section.shops table th,
+section.shops table td {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: left;
+}
+
+section.shops table th {
+    font-weight: bold;
+}
+
+section.shops table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+section.shops table tr:hover {
+    background-color: #f1f1f1;
+}
+
+section.shops table td a {
+    color: #333;
+    text-decoration: none;
+}
+
+section.shops table td a:hover {
+    text-decoration: underline;
+}

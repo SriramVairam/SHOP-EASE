@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.example.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddShopServlet</servlet-name>
+    <servlet-class>com.example.AddShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddShopServlet</servlet-name>
+    <url-pattern>/AddShopServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewAllShopsServlet</servlet-name>
+    <servlet-class>com.example.ViewAllShopsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewAllShopsServlet</servlet-name>
+    <url-pattern>/ViewAllShopsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditShopServlet</servlet-name>
+    <servlet-class>com.example.EditShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditShopServlet</servlet-name>
+    <url-pattern>/EditShopServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteShopServlet</servlet-name>
+    <servlet-class>com.example.DeleteShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteShopServlet</servlet-name>
+    <url-pattern>/DeleteShopServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- AddProductServlet configuration -->
+  <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.example.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
